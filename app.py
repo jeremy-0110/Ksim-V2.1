@@ -80,9 +80,6 @@ current_open_price = open_price if open_price > 0 else 0.0
 with st.sidebar:
     st.subheader(f"📈 {state.ticker} ({unit_name}回測)")
     
-    # [修改重點] 回測進度計算
-    # 現在模擬起點是 INITIAL_OBSERVATION_DAYS (250)，所以要減去 250 才是跑了幾天
-    # 如果還用 VIEW_DAYS (100)，剛開始就會顯示已經跑了 150 天，這樣不對
     days_passed = state.current_sim_index - config.INITIAL_OBSERVATION_DAYS + 1
     days_remain = state.max_sim_index - state.current_sim_index
     
@@ -188,7 +185,7 @@ with st.sidebar:
         
         col_fee, col_cost = st.columns(2)
         with col_fee:
-            st.markdown(f"<p style='font-size: small;'>預估費用: ${est_fee:,.2f}</p>", unsafe_allow_html=True)
+            st.markdown(f"<p style='font-size: small;'>預估手續費用: ${est_fee:,.2f}</p>", unsafe_allow_html=True)
         with col_cost:
             st.markdown(f"<p style='font-size: small;'>總值: ${est_cost:,.2f}</p>", unsafe_allow_html=True)
         
@@ -453,4 +450,5 @@ if state.transactions:
         use_container_width=True, hide_index=True
     )
 else:
+
     st.info("尚無已平倉的交易紀錄。")
