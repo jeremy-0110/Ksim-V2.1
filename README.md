@@ -9,7 +9,7 @@ Development)** 的實戰案例（連README也是生成的）。
 
 ## 🔗 線上體驗 & 聯絡方式
 
--   Demo：<https://ksimv2-1.streamlit.app>\
+-   Demo：<https://ksimv2-1.streamlit.app>
 -   Email：jeremy0110aaa@gmail.com
 
 ------------------------------------------------------------------------
