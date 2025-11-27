@@ -138,4 +138,5 @@ http://localhost:8501
 
 ---
 **本專案僅供教育與學術研究使用，不構成任何投資建議。數據來源為 Yahoo Finance，請遵守其使用規範**
+
 **Powered by Python & Gemini AI**
