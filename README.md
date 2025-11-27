@@ -1,4 +1,4 @@
-# Ksim V2.1 - 智慧型多資產交易回測系統 (AI-Assisted Trading Simulator)
+# Ksim V2.1 - 多資產交易回測系統 (Trading Simulator)
 
 Ksim V2.1 是一個基於 **Python** 與 **Streamlit** 架構的互動式金融回測引擎。
 
