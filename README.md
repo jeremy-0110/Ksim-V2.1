@@ -1,18 +1,18 @@
-# Ksim V2.1 - 多資產交易回測系統 (Trading Simulator)
+ # Ksim V2.1 - 多資產交易回測系統 (Trading Simulator)
 
 Ksim V2.1 是一個基於 **Python** 與 **Streamlit** 架構的互動式金融回測引擎。
 
 本專案不僅是一個交易模擬器，更是一個展示軟體架構重構 (Refactoring) 與 AI 輔助開發 (AI-Assisted Development) 的實作案例。
 
-> （連 README 也是 AI 輸出的，如果有相關回饋可以加我 DC）
+> （連 README 也是 AI 輸出的，如果有相關回饋可以透過郵件跟我說）
 
 ---
 
 ## 🔗 線上體驗 Demo
 https://ksimv2-1.streamlit.app
 
-## 💬 回饋 (Discord)
-https://discord.gg/VZmRthTF
+## 💬 回饋 (Gmail)
+jeremy0110aaa@gmail.com
 
 ---
 
@@ -137,5 +137,5 @@ http://localhost:8501
 ```
 
 ---
-
+**本專案僅供教育與學術研究使用，不構成任何投資建議。數據來源為 Yahoo Finance，請遵守其使用規範**
 **Powered by Python & Gemini AI**
