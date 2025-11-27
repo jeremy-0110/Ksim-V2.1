@@ -11,7 +11,7 @@ Ksim V2.1 是一個基於 **Python** 與 **Streamlit** 架構的互動式金融�
 ## 🔗 線上體驗 Demo
 https://ksimv2-1.streamlit.app
 
-## 💬 加入討論 (Discord)
+## 💬 回饋 (Discord)
 https://discord.gg/VZmRthTF
 
 ---
