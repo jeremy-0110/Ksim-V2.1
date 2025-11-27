@@ -58,11 +58,6 @@ def fetch_historical_data(ticker: str = "TSLA") -> pd.DataFrame | None:
 def select_random_start_index(data: pd.DataFrame) -> tuple[int, int] | None:
     """
     隨機挑選一段歷史區間
-    
-    [修改重點]
-    這裡改用 INITIAL_OBSERVATION_DAYS 來決定模擬的起點。
-    確保不管 VIEW_DAYS (圖表顯示寬度) 設多少，
-    模擬開始前都會保留足夠的天數 (例如 250 天) 讓技術指標有參考價值。
     """
     total_days = len(data)
     
@@ -104,4 +99,5 @@ def get_price_info_by_index(data: pd.DataFrame, index: int) -> tuple[datetime, f
         close_price = current_row['Close'].item() if hasattr(current_row['Close'], 'item') else current_row['Close']
         
         return date, open_price, close_price
+
     return datetime.now(), 0.0, 0.0
